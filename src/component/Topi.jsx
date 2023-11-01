@@ -77,7 +77,8 @@ const Topi = () => {
                 >
                   <img
                     src={item.imageUrl}
-                    alt="food img"
+                    alt="foto produk"
+                        loading="lazy"
                     className="object-cover rounded-md mb-2 "
                   />
 
@@ -105,7 +106,8 @@ const Topi = () => {
                       </button>
                       <img
                         src={pop.imageUrl}
-                        alt="food img"
+                        alt="foto produk"
+                        loading="lazy"
                         className="rounded-md"
                       />
                       <div className="">

@@ -5,17 +5,17 @@ import { FiFacebook } from "react-icons/fi";
 const Footer = () => {
   return (
     <>
-      <div className="bg-slate-800 text-slate-100 flex flex-col justify-center gap-9 items-center sm:px-8 lg:px-[130px] px-4 py-5 md:flex-row md:justify-between">
+      <div className="bg-slate-800 text-slate-100 flex flex-col justify-center gap-9 items-center sm:px-8 lg:px-[130px] px-4 py-5 md:flex-row md:justify-between" id="contact">
         <div className="flex flex-col gap-3 items-center md:flex-1">
           <h1 className="text-2xl font-semibold">EXOTIX APPAREL</h1>
           <div className="flex gap-3 text-2xl">
-            <a href="https://www.instagram.com/exoticapparel_id/">
+            <a rel="nofollow" target="blank" href="https://www.instagram.com/exoticapparel_id/">
               <BsInstagram />
             </a>
-            <a href="http://wa.me/6281311118809">
+            <a rel="nofollow" target="blank" href="http://wa.me/6281311118809">
               <BsWhatsapp />
             </a>
-            <a href="https://www.facebook.com/3xoticapparel">
+            <a rel="nofollow" target="blank" href="https://www.facebook.com/3xoticapparel">
               <FiFacebook />
             </a>
           </div>

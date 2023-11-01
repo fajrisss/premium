@@ -36,7 +36,7 @@ const Hero = () => {
             <div className="relative text-yellow-300 flex justify-center items-center">
               <img
                 className="object-cover h-[500px] w-screen"
-                src={KAOS}
+                src={KAOS} alt="kaos polos" loading="lazy"
               />
               <p className="absolute flex justify-center items-center font-poppins font-semi-bold text-slate-700 text-4xl w-screen m-auto rounded-sm">
                 COMING SOON..
@@ -49,7 +49,7 @@ const Hero = () => {
             <div className="relative text-yellow-300 flex justify-center items-center">
               <img
                 className="object-cover h-[500px] w-screen"
-                src={KAOS2}
+                src={KAOS2} alt="kaos polos" loading="lazy"
               />
               <p className="absolute flex justify-center items-center font-poppins font-semi-bold text-slate-700 text-4xl w-screen m-auto rounded-sm">
                 COMING SOON..
@@ -62,7 +62,7 @@ const Hero = () => {
             <div className="relative text-yellow-300 flex justify-center items-center">
               <img
                 className="object-cover h-[500px] w-screen"
-                src={KAOS3}
+                src={KAOS3} alt="kaos polos" loading="lazy"
               />
               <p className="absolute flex justify-center items-center font-poppins font-semi-bold text-slate-400 text-4xl w-screen m-auto rounded-sm">
                 COMING SOON..
@@ -78,19 +78,19 @@ const Hero = () => {
         <div className="w-screen px-2 md:px-0 md:w-[280px] h-[180px] overflow-clip object-cover flex justify-center items-center ">
           <img
             className=" hover:scale-110 transition-all duration-500"
-            src={KAOS}
+            src={KAOS} alt="kaos polos" loading="lazy"
           />
         </div>
         <div className="w-screen px-2 md:px-0 md:w-[280px] h-[180px] overflow-clip object-cover flex justify-center items-center">
           <img
             className=" hover:scale-110 transition-all duration-500"
-            src={KAOS2}
+            src={KAOS2} alt="kaos polos" loading="lazy"
           />
         </div>
         <div className="w-screen px-2 md:px-0 md:w-[280px] h-[180px] overflow-clip object-cover flex justify-center items-center">
           <img
             className=" hover:scale-110 transition-all duration-500"
-            src={KAOS3}
+            src={KAOS3} alt="kaos polos" loading="lazy"
           />
         </div>
       </div>

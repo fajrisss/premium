@@ -9,13 +9,13 @@ const Footer = () => {
         <div className="flex flex-col gap-3 items-center md:flex-1">
           <h1 className="text-2xl font-semibold">EXOTIX APPAREL</h1>
           <div className="flex gap-3 text-2xl">
-            <a href="">
+            <a href="https://www.instagram.com/exoticapparel_id/">
               <BsInstagram />
             </a>
-            <a href="">
+            <a href="http://wa.me/6281311118809">
               <BsWhatsapp />
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/3xoticapparel">
               <FiFacebook />
             </a>
           </div>
